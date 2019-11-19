@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-19T23:23:21.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="o9hmPUT8AyfksFg1NXU5" version="12.2.6" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2019-11-19T23:25:48.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="n3ramgijWO_U0SvN4ooZ" version="12.2.6" type="github" pages="13">
   <diagram id="OT5wK1XDzM2IJM-7kNj8" name="Current System Architecture">
     <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1729,7 +1729,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of ABBYY Error Handling" id="E3bGQALfqq9CSaXkb8ri">
-    <mxGraphModel dx="754" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="AuK8nXELIKN_chZC0cGy-0"/>
         <mxCell id="AuK8nXELIKN_chZC0cGy-1" parent="AuK8nXELIKN_chZC0cGy-0"/>
@@ -1823,7 +1823,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AUTXXrmi4Z3L46e5o_Nx" name="Error case 1">
-    <mxGraphModel dx="754" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="eoeQDGc8pLeuY_RMkiDa-0"/>
         <mxCell id="eoeQDGc8pLeuY_RMkiDa-1" parent="eoeQDGc8pLeuY_RMkiDa-0"/>
@@ -1901,7 +1901,7 @@
         <mxCell id="ovfye3vH-g4QeiY8cYwI-13" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=10;" edge="1" parent="eoeQDGc8pLeuY_RMkiDa-1" source="ovfye3vH-g4QeiY8cYwI-14" target="ovfye3vH-g4QeiY8cYwI-4">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="ovfye3vH-g4QeiY8cYwI-14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Transformation or Encryption Error&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#FF3333;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="eoeQDGc8pLeuY_RMkiDa-1">
+        <mxCell id="ovfye3vH-g4QeiY8cYwI-14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;SFTP connectivity error&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#FF3333;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="eoeQDGc8pLeuY_RMkiDa-1">
           <mxGeometry x="340.5" y="60" width="121" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="xtLME6YDXdGISHNKfX6E-0" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Wait 30 minutes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="eoeQDGc8pLeuY_RMkiDa-1">
@@ -1947,7 +1947,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Error case 2" id="UXPm8TleTRnwYk-zHcOn">
-    <mxGraphModel dx="754" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="mEIywQtJT3BJ3P3ruNYk-0"/>
         <mxCell id="mEIywQtJT3BJ3P3ruNYk-1" parent="mEIywQtJT3BJ3P3ruNYk-0"/>
