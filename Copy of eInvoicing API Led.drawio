@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-20T19:56:03.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="J9SsR-QA5vfMt8cM7VU8" version="12.2.7" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2019-11-21T15:52:36.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="G1WjOvw_wo14up3s3Bjg" version="12.2.7" type="github" pages="16">
   <diagram id="OT5wK1XDzM2IJM-7kNj8" name="Current System Architecture">
     <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1823,7 +1823,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AUTXXrmi4Z3L46e5o_Nx" name="Error case 1">
-    <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="eoeQDGc8pLeuY_RMkiDa-0"/>
         <mxCell id="eoeQDGc8pLeuY_RMkiDa-1" parent="eoeQDGc8pLeuY_RMkiDa-0"/>
@@ -2072,6 +2072,9 @@
         <mxCell id="FjFrekpCu9uUN8RTlt2k-24" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Publish error object to AnypointMQ&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="FjFrekpCu9uUN8RTlt2k-1" vertex="1">
           <mxGeometry x="320" y="444" width="129" height="30" as="geometry"/>
         </mxCell>
+        <mxCell id="6j8HyYG3So3zgs1c4S_j-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FjFrekpCu9uUN8RTlt2k-1" source="FjFrekpCu9uUN8RTlt2k-25" target="6j8HyYG3So3zgs1c4S_j-0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="FjFrekpCu9uUN8RTlt2k-25" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Move file to Error folder in SFTP server&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="FjFrekpCu9uUN8RTlt2k-1" vertex="1">
           <mxGeometry x="319" y="500" width="131" height="30" as="geometry"/>
         </mxCell>
@@ -2089,6 +2092,9 @@
         </mxCell>
         <mxCell id="odsOvwL_v6RxKTbdKAOJ-0" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Store error counter in object store&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="FjFrekpCu9uUN8RTlt2k-1" vertex="1">
           <mxGeometry x="259.5" y="245" width="129" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="6j8HyYG3So3zgs1c4S_j-0" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Set flag in object store to identify existing ticket&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="FjFrekpCu9uUN8RTlt2k-1">
+          <mxGeometry x="309.5" y="550" width="150" height="45" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2212,7 +2218,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Error case 6" id="Jyzb2UCJ-y_LexhZpmXv">
-    <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="wjEqVhoVgh_l79rQTx4P-0"/>
         <mxCell id="wjEqVhoVgh_l79rQTx4P-1" parent="wjEqVhoVgh_l79rQTx4P-0"/>
@@ -2336,7 +2342,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Error case 7" id="PISRB_GuMlz2qA4-fEY5">
-    <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="8CtxN4v9MO8p0A91tACj-0"/>
         <mxCell id="8CtxN4v9MO8p0A91tACj-1" parent="8CtxN4v9MO8p0A91tACj-0"/>
@@ -2359,7 +2365,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Error case 8" id="R58f5eOj3hS76Gc0iMMP">
-    <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="7921PP4nidSmwYaGNVwh-0"/>
         <mxCell id="7921PP4nidSmwYaGNVwh-1" parent="7921PP4nidSmwYaGNVwh-0"/>
