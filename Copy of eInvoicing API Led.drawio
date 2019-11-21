@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-21T21:41:55.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="LwYZC9rPv4u7Hgan3VXs" version="12.2.7" type="github" pages="18">
+<mxfile host="www.draw.io" modified="2019-11-21T22:41:37.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="s_dwrEeyJwcO9gwC0WRx" version="12.2.7" type="github" pages="18">
   <diagram id="OT5wK1XDzM2IJM-7kNj8" name="Current System Architecture">
     <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2649,11 +2649,11 @@
         <mxCell id="HH5ZmPRw3DG99_gKKVoo-67" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;dashed=1;" edge="1" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-68" target="HH5ZmPRw3DG99_gKKVoo-70">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-68" target="HH5ZmPRw3DG99_gKKVoo-13">
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-68" target="HH5ZmPRw3DG99_gKKVoo-76">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-68" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Error flag exists&lt;br style=&quot;font-size: 10px&quot;&gt;in object store for Strpes System API errors?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="HH5ZmPRw3DG99_gKKVoo-1">
-          <mxGeometry x="170" y="446" width="192" height="60" as="geometry"/>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-68" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Error flag exists&lt;br style=&quot;font-size: 10px&quot;&gt;in object store for Stripes System API?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="HH5ZmPRw3DG99_gKKVoo-1">
+          <mxGeometry x="180" y="446" width="172" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="HH5ZmPRw3DG99_gKKVoo-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-70" target="HH5ZmPRw3DG99_gKKVoo-71">
           <mxGeometry relative="1" as="geometry"/>
@@ -2666,6 +2666,36 @@
         </mxCell>
         <mxCell id="HH5ZmPRw3DG99_gKKVoo-72" value="Asynchronous" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="HH5ZmPRw3DG99_gKKVoo-1">
           <mxGeometry x="656.5" y="427.5" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-76" target="HH5ZmPRw3DG99_gKKVoo-79">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-76" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Move EDI Acknowledgement file to SFTP server&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="HH5ZmPRw3DG99_gKKVoo-1">
+          <mxGeometry x="181" y="532.5" width="170" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-77" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;dashed=1;" vertex="1" parent="HH5ZmPRw3DG99_gKKVoo-1">
+          <mxGeometry x="382.5" y="588" width="338" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-78" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;dashed=1;" edge="1" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-79" target="HH5ZmPRw3DG99_gKKVoo-81">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-79" target="HH5ZmPRw3DG99_gKKVoo-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-79" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Error flag exists&lt;br style=&quot;font-size: 10px&quot;&gt;in object store for EDI Ack file?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="HH5ZmPRw3DG99_gKKVoo-1">
+          <mxGeometry x="170" y="589" width="192" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-81" target="HH5ZmPRw3DG99_gKKVoo-82">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-81" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Clear flag in object store&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="HH5ZmPRw3DG99_gKKVoo-1">
+          <mxGeometry x="400.5" y="603" width="110" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-82" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Publish SUCCESS messge to Anypoint Error handling Queue&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="HH5ZmPRw3DG99_gKKVoo-1">
+          <mxGeometry x="540.5" y="596.5" width="170" height="43" as="geometry"/>
+        </mxCell>
+        <mxCell id="HH5ZmPRw3DG99_gKKVoo-83" value="Asynchronous" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="HH5ZmPRw3DG99_gKKVoo-1">
+          <mxGeometry x="660.5" y="570" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
