@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-22T17:10:10.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="NGVEpThD2VOS9j5H_Rwm" version="12.2.7" type="github" pages="18">
+<mxfile host="www.draw.io" modified="2019-11-22T17:15:47.793Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="3pmE7_jVBPJrSs_WjMGW" version="12.2.7" type="github" pages="18">
   <diagram id="OT5wK1XDzM2IJM-7kNj8" name="Current System Architecture">
     <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1947,15 +1947,15 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Error case 2" id="UXPm8TleTRnwYk-zHcOn">
-    <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="mEIywQtJT3BJ3P3ruNYk-0"/>
         <mxCell id="mEIywQtJT3BJ3P3ruNYk-1" parent="mEIywQtJT3BJ3P3ruNYk-0"/>
         <mxCell id="Soh1B7rg2WRo766QEUNA-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=10;" parent="mEIywQtJT3BJ3P3ruNYk-1" source="mEIywQtJT3BJ3P3ruNYk-17" target="mEIywQtJT3BJ3P3ruNYk-24" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="mEIywQtJT3BJ3P3ruNYk-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;SFTP connectivity&amp;nbsp;&lt;br style=&quot;font-size: 10px;&quot;&gt;error&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#FF3333;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="mEIywQtJT3BJ3P3ruNYk-1" vertex="1">
-          <mxGeometry x="340.5" y="60" width="121" height="30" as="geometry"/>
+        <mxCell id="mEIywQtJT3BJ3P3ruNYk-17" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Error during transformation of the EDI file&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#FF3333;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="mEIywQtJT3BJ3P3ruNYk-1" vertex="1">
+          <mxGeometry x="341" y="50" width="121" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="mEIywQtJT3BJ3P3ruNYk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=10;" parent="mEIywQtJT3BJ3P3ruNYk-1" source="mEIywQtJT3BJ3P3ruNYk-24" target="mEIywQtJT3BJ3P3ruNYk-25" edge="1">
           <mxGeometry relative="1" as="geometry"/>
