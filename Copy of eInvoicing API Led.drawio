@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-22T17:15:47.793Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="3pmE7_jVBPJrSs_WjMGW" version="12.2.7" type="github" pages="18">
+<mxfile host="www.draw.io" modified="2019-11-22T17:18:55.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="yjJVe6Mzaj7rQ0WSvEUK" version="12.2.7" type="github" pages="18">
   <diagram id="OT5wK1XDzM2IJM-7kNj8" name="Current System Architecture">
     <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2217,8 +2217,14 @@
         <mxCell id="pDyYTduPiXE3FkuGjplK-30" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Store error counter in object store&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="pDyYTduPiXE3FkuGjplK-1" vertex="1">
           <mxGeometry x="259.5" y="245" width="129" height="30" as="geometry"/>
         </mxCell>
+        <mxCell id="cwPlAqnD6HmwTR-IvyhC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="pDyYTduPiXE3FkuGjplK-1" source="57WW3LY9fMwRh5_bZBM--0" target="cwPlAqnD6HmwTR-IvyhC-0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="57WW3LY9fMwRh5_bZBM--0" value="Move message to retry queue for reprocessing" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="pDyYTduPiXE3FkuGjplK-1">
           <mxGeometry x="320.5" y="500" width="128" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwPlAqnD6HmwTR-IvyhC-0" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Set flag in object store to identify existing ticket&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="pDyYTduPiXE3FkuGjplK-1">
+          <mxGeometry x="309.5" y="550" width="150" height="45" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
