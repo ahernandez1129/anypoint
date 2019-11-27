@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-27T18:14:19.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="72W_LHKgak5juRfXzdLT" version="12.3.2" type="github" pages="20">
+<mxfile host="www.draw.io" modified="2019-11-27T18:23:45.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="5Zw5NJqs6NYcjXa5ppdx" version="12.3.2" type="github" pages="20">
   <diagram id="OT5wK1XDzM2IJM-7kNj8" name="Current System Architecture">
     <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2595,7 +2595,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Invoice Process Flow" id="mtySSVM5US0Ym44Uabbg">
-    <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="HH5ZmPRw3DG99_gKKVoo-0"/>
         <mxCell id="HH5ZmPRw3DG99_gKKVoo-1" parent="HH5ZmPRw3DG99_gKKVoo-0"/>
@@ -2691,38 +2691,21 @@
         <mxCell id="HH5ZmPRw3DG99_gKKVoo-72" value="Asynchronous" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" parent="HH5ZmPRw3DG99_gKKVoo-1" vertex="1">
           <mxGeometry x="656.5" y="427.5" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-76" target="HH5ZmPRw3DG99_gKKVoo-79" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
         <mxCell id="HH5ZmPRw3DG99_gKKVoo-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-76" target="HH5ZmPRw3DG99_gKKVoo-87" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
+        <mxCell id="3jsZDljoMviKN-RkfNGv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-76" target="HH5ZmPRw3DG99_gKKVoo-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266" y="580" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="266" y="583"/>
+              <mxPoint x="150" y="583"/>
+              <mxPoint x="150" y="241"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HH5ZmPRw3DG99_gKKVoo-76" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Move EDI Acknowledgement message to Anypoint MQ&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="HH5ZmPRw3DG99_gKKVoo-1" vertex="1">
           <mxGeometry x="181" y="532.5" width="170" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-77" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;dashed=1;" parent="HH5ZmPRw3DG99_gKKVoo-1" vertex="1">
-          <mxGeometry x="382.5" y="588" width="338" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-78" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;dashed=1;" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-79" target="HH5ZmPRw3DG99_gKKVoo-81" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-79" target="HH5ZmPRw3DG99_gKKVoo-13" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-79" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Error flag exists&lt;br style=&quot;font-size: 10px&quot;&gt;in object store for EDI Ack file?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" parent="HH5ZmPRw3DG99_gKKVoo-1" vertex="1">
-          <mxGeometry x="170" y="589" width="192" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="HH5ZmPRw3DG99_gKKVoo-1" source="HH5ZmPRw3DG99_gKKVoo-81" target="HH5ZmPRw3DG99_gKKVoo-82" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-81" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Clear flag in object store&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="HH5ZmPRw3DG99_gKKVoo-1" vertex="1">
-          <mxGeometry x="400.5" y="603" width="110" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-82" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Publish SUCCESS messge to Anypoint Error handling Queue&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="HH5ZmPRw3DG99_gKKVoo-1" vertex="1">
-          <mxGeometry x="540.5" y="596.5" width="170" height="43" as="geometry"/>
-        </mxCell>
-        <mxCell id="HH5ZmPRw3DG99_gKKVoo-83" value="Asynchronous" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" parent="HH5ZmPRw3DG99_gKKVoo-1" vertex="1">
-          <mxGeometry x="660.5" y="570" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="HH5ZmPRw3DG99_gKKVoo-87" value="Anypoint MQ" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=10;" parent="HH5ZmPRw3DG99_gKKVoo-1" vertex="1">
           <mxGeometry x="417" y="528" width="133" height="40" as="geometry"/>
@@ -2731,13 +2714,10 @@
     </mxGraphModel>
   </diagram>
   <diagram name="EDI Ack Process Flow" id="l_S7bdbZWl_pvBF0vwfV">
-    <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-0"/>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-1" parent="3Md_soMhq7ikxEMS2ohH-0"/>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;dashed=1;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="380" y="291.5" width="338" height="60" as="geometry"/>
-        </mxCell>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-4" target="3Md_soMhq7ikxEMS2ohH-6">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
@@ -2756,76 +2736,11 @@
         <mxCell id="3Md_soMhq7ikxEMS2ohH-8" value="Anypoint MQ" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=10;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
           <mxGeometry x="417" y="104" width="93" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-10" target="3Md_soMhq7ikxEMS2ohH-13">
+        <mxCell id="UZN-Prr6BP4CofSWwJc7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-10" target="UZN-Prr6BP4CofSWwJc7-0">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-10" value="&lt;span style=&quot;font-size: 10px&quot;&gt;For Each Message&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
           <mxGeometry x="211" y="170" width="110" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-13" target="3Md_soMhq7ikxEMS2ohH-14">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-13" target="3Md_soMhq7ikxEMS2ohH-17">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-13" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Read File from Azure Storage&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="205" y="226" width="122" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-14" value="Azure Storage" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=10;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="417" y="221" width="60" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-15" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;dashed=1;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-17" target="3Md_soMhq7ikxEMS2ohH-19">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-17" target="3Md_soMhq7ikxEMS2ohH-22">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-17" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Error flag exists&lt;br style=&quot;font-size: 10px&quot;&gt;in object store for Azure storage errors?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="179" y="291.5" width="174" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-19" target="3Md_soMhq7ikxEMS2ohH-20">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-19" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Clear flag in object store&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="398" y="306.5" width="110" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-20" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Publish SUCCESS messge to Anypoint Error handling Queue&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="538" y="300" width="170" height="43" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-21" value="Asynchronous" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="658" y="273.5" width="40" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-22" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Call Stripes System API&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="205" y="380" width="122" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;dashed=1;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="378.5" y="445.5" width="338" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" target="3Md_soMhq7ikxEMS2ohH-27">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="264.5" y="410" as="sourcePoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-25" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;dashed=1;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-27" target="3Md_soMhq7ikxEMS2ohH-29">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-27" target="3Md_soMhq7ikxEMS2ohH-34">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-27" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Error flag exists&lt;br style=&quot;font-size: 10px&quot;&gt;in object store for Stripes System API?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="180" y="446" width="172" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-29" target="3Md_soMhq7ikxEMS2ohH-30">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-29" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Clear flag in object store&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="396.5" y="460.5" width="110" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-30" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Publish SUCCESS messge to Anypoint Error handling Queue&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="536.5" y="454" width="170" height="43" as="geometry"/>
-        </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-31" value="Asynchronous" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="656.5" y="427.5" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-34" target="3Md_soMhq7ikxEMS2ohH-38">
           <mxGeometry relative="1" as="geometry"/>
@@ -2833,11 +2748,11 @@
         <mxCell id="3Md_soMhq7ikxEMS2ohH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-34" target="3Md_soMhq7ikxEMS2ohH-43">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-34" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Move EDI Acknowledgement message to Anypoint MQ&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="181" y="532.5" width="170" height="30" as="geometry"/>
+        <mxCell id="3Md_soMhq7ikxEMS2ohH-34" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Move EDI Acknowledgement File to Anypoint MQ&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
+          <mxGeometry x="181" y="286.5" width="170" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;dashed=1;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="382.5" y="588" width="338" height="60" as="geometry"/>
+          <mxGeometry x="382.5" y="342" width="338" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-36" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;dashed=1;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-38" target="3Md_soMhq7ikxEMS2ohH-40">
           <mxGeometry relative="1" as="geometry"/>
@@ -2846,22 +2761,28 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-38" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Error flag exists&lt;br style=&quot;font-size: 10px&quot;&gt;in object store for EDI Ack file?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="170" y="589" width="192" height="60" as="geometry"/>
+          <mxGeometry x="170" y="343" width="192" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="3Md_soMhq7ikxEMS2ohH-40" target="3Md_soMhq7ikxEMS2ohH-41">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-40" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Clear flag in object store&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="400.5" y="603" width="110" height="30" as="geometry"/>
+          <mxGeometry x="400.5" y="357" width="110" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-41" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Publish SUCCESS messge to Anypoint Error handling Queue&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="540.5" y="596.5" width="170" height="43" as="geometry"/>
+          <mxGeometry x="540.5" y="350.5" width="170" height="43" as="geometry"/>
         </mxCell>
         <mxCell id="3Md_soMhq7ikxEMS2ohH-42" value="Asynchronous" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="660.5" y="570" width="40" height="20" as="geometry"/>
+          <mxGeometry x="660.5" y="324" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="3Md_soMhq7ikxEMS2ohH-43" value="Anypoint MQ" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=10;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
-          <mxGeometry x="417" y="528" width="133" height="40" as="geometry"/>
+        <mxCell id="3Md_soMhq7ikxEMS2ohH-43" value="CPDP SFTP" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=10;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
+          <mxGeometry x="417" y="282" width="93" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="UZN-Prr6BP4CofSWwJc7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3Md_soMhq7ikxEMS2ohH-1" source="UZN-Prr6BP4CofSWwJc7-0" target="3Md_soMhq7ikxEMS2ohH-34">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="UZN-Prr6BP4CofSWwJc7-0" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Transform Message to EDI Acknowledgement File&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" vertex="1" parent="3Md_soMhq7ikxEMS2ohH-1">
+          <mxGeometry x="187" y="230" width="158" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
