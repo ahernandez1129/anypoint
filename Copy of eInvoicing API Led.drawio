@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-27T18:39:00.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="cevFCuRBkvChJSSUEHqa" version="12.3.2" type="github" pages="20">
+<mxfile host="www.draw.io" modified="2019-12-20T16:01:43.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="iq-7j3NKUJQ_rUFdabBV" version="12.4.3" type="github" pages="20">
   <diagram id="OT5wK1XDzM2IJM-7kNj8" name="Current System Architecture">
-    <mxGraphModel dx="768" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -1947,7 +1947,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Error case 2" id="UXPm8TleTRnwYk-zHcOn">
-    <mxGraphModel dx="768" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="mEIywQtJT3BJ3P3ruNYk-0"/>
         <mxCell id="mEIywQtJT3BJ3P3ruNYk-1" parent="mEIywQtJT3BJ3P3ruNYk-0"/>
@@ -1963,7 +1963,7 @@
         <mxCell id="mEIywQtJT3BJ3P3ruNYk-24" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Publish error object to AnypointMQ&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="mEIywQtJT3BJ3P3ruNYk-1" vertex="1">
           <mxGeometry x="336.5" y="120" width="129" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="mEIywQtJT3BJ3P3ruNYk-25" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Move file to Error folder in SFTP server&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="mEIywQtJT3BJ3P3ruNYk-1" vertex="1">
+        <mxCell id="mEIywQtJT3BJ3P3ruNYk-25" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Move file to Error folder Azure Storage&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;arcSize=50;" parent="mEIywQtJT3BJ3P3ruNYk-1" vertex="1">
           <mxGeometry x="326" y="176" width="150" height="45" as="geometry"/>
         </mxCell>
       </root>
